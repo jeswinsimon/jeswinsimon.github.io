@@ -1,11 +1,9 @@
 ---
-title: Home
+title:
 layout: home
 permalink: /
 ---
 
-# Welcome
-
 ## Gradatim Ferociter
 
-All big things start small - Jeff Bezos
+_All big things start small - Jeff Bezos_

@@ -26,18 +26,18 @@ github_username:  jeswinsimon
 
 # Build settings
 markdown: kramdown
-# theme: minima
-remote-theme: b2a3e8/jekyll-theme-console
+theme: minima
+# remote-theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
 
 # Jekyll theme console settings
-header_pages:
-  - index.md
-  - about.md
-  - backlog.md
-style: dark # dark (default) or light
-listen_for_clients_preferred_style: true # true or false (default)
+# header_pages:
+#   - index.md
+#   - about.md
+#   - backlog.md
+# style: dark # dark (default) or light
+# listen_for_clients_preferred_style: true # true or false (default)
 
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 
