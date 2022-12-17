@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "I tried making ChatGPT write a command-line application for accessing ChatGPT."
+title:  "I tried making ChatGPT write a command-line application for accessing ChatGPT"
 date:   2022-12-17 19:22:00 +0530
 ---
 
-And I failed. ChatGPT is not yet ready to replace designers, developers, or content writers, but it is probably the best tool for all of them.
+**And I failed.** ChatGPT is not yet ready to replace designers, developers, or content writers, but it is probably the best tool for all of them.
 
 I spent some time with ChatGPT and I was very impressed with the results. After playing around with it for a while, I wanted to build a command-line version of ChatGPT for two main reasons: easier access and the ability to persist my queries (unlike Dall-E, ChatGPT does not save history, and I was tired of taking screenshots).
 
@@ -32,7 +32,9 @@ And what is the latest version of **reqwest**?
 
 ![Crate.io](/images/chatGPT1/6.crates.io.png)
 
-At this point, the code was throwing up a bunch of syntax errors. I tried asking ChatGPT on how to use **reqwest**, but it gave back the same code snippet. So, I finally resorted to googling and came across this tutorial. A couple of things were missing. Since ChatGPT did not provide the `Cargo.toml` file, I had not enabled the json feature for reqwest and also did not import **serde_json** for using the `json!` macro. Here is the updated dependency list.
+At this point, the code was throwing up a bunch of syntax errors. I tried asking ChatGPT on how to use **reqwest**, but it gave back the same code snippet. So, I finally resorted to googling and came across this tutorial. A couple of things were missing. Since ChatGPT did not provide the `Cargo.toml` file, I had not enabled the json feature for reqwest and also did not import **serde_json** for using the `json!` macro. 
+
+Here is the updated dependency list.
 
 ````
 
